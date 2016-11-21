@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements IView,View.OnClic
         //init
         mPresenter = new PresenterCompl(this);
         mPresenter.setProgressBarVisiblity(false);
+
     }
 
     @Override
